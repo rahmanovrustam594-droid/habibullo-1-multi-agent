@@ -1,0 +1,27 @@
+# Build artifacts
+/build/
+cmake-build-debug/
+cmake-build-release/
+
+# Local model files and generated runtime files
+*.gguf
+*.bin
+*.log
+.temp_sandbox.py
+temp_sandbox.py
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# C++ compiled outputs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
